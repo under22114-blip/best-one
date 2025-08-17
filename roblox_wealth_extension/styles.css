@@ -1,0 +1,35 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 10px;
+  width: 300px;
+}
+#app h2 {
+  font-size: 16px;
+  margin-top: 0;
+}
+input[type="text"] {
+  width: 100%;
+  padding: 6px;
+  margin: 6px 0;
+  box-sizing: border-box;
+}
+button {
+  padding: 6px 12px;
+  margin-right: 4px;
+  margin-bottom: 6px;
+}
+#status {
+  font-size: 12px;
+  color: #555;
+  margin: 4px 0;
+}
+#resultList {
+  list-style: none;
+  padding: 0;
+  max-height: 300px;
+  overflow-y: auto;
+}
+#resultList li {
+  padding: 4px 0;
+  border-bottom: 1px solid #eee;
+}
